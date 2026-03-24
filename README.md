@@ -100,3 +100,10 @@ out skel qt;
    - Renseigner le fichier de style inclut dans le repository
    - Enregistrer les nouvelles couches ou les laisser temporaires
    - Cliquer sur **Exécuter**
+
+
+### 4 — Benchmark des performances
+Performances de l'outil sur la zone de Champs-sur-Marne (7.32 km², urbain en banlieue parisienne) : 
+- Laptop Windows 11, AMD Ryzen 5 4600H, 16Go RAM : 1 minutes 45 secondes
+- Laptop MacBook Air : 3 minutes 45 secondes
+- PC Dell Windows 11, Intel Xeon W-2223, 31Go RAM, NVIDIA RTX &-2000 : 45 secondes 
