@@ -99,7 +99,11 @@ out skel qt;
    - Renseigner le fichier de style inclut dans le repository
    - Enregistrer les nouvelles couches ou les laisser temporaires
    - Cliquer sur **Exécuter**
+7. Le modèle fourni en résultat 2 couches :
+   - Une couche de ligne présentant les tronçons avec des champs "prio_début" et "prio_fin" présentant le régime de priorité au début et à la fin du tronçon
+   - une couche de point avec un style permettant de visualiser le type d'intersection et les panneaux de signalisation français associés
 
+8. Extraction des couches : l'extraction des couches de résultats est possible, nous conseillons pour l'instant de le faire vers un format geopackage, le format Shapefile pose aujourd'hui(24/03/2026) des problèmes vis à vis du type d'un champs. 
 
 ### 4 — Benchmark des performances
 Performances de l'outil sur la zone de Champs-sur-Marne (7.32 km², urbain en banlieue parisienne) : 
