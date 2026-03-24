@@ -15,15 +15,9 @@ Ce dépôt est composé d'un fichier Python du script de notre modèle réalisé
 
 ## Mode d'emploi de l'outil
 
-### 1 — Installer le plugin SplitLinesByPoints
-
-Dans l'onglet **Extensions**, installer le plugin **SplitLinesByPoints**.
-
-> Plugin nécessaire au bon fonctionnement du modèle.
-
 ---
 
-### 2 — Téléchargement des données OpenStreetMap via Overpass Turbo
+### 1 — Téléchargement des données OpenStreetMap via Overpass Turbo
 
 Accéder à l'API : [https://overpass-turbo.eu/](https://overpass-turbo.eu/)
 
@@ -86,7 +80,7 @@ out skel qt;
 
 ---
 
-### 3 — Utilisation du modèle sur QGIS
+### 2 — Utilisation du modèle sur QGIS
 
 1. Télécharger le modèle depuis ce dépôt.
 2. Ouvrir **QGIS** (version 3.40.7 recommandée).
@@ -105,7 +99,7 @@ out skel qt;
 
 8. Extraction des couches : l'extraction des couches de résultats est possible, nous conseillons pour l'instant de le faire vers un format geopackage, le format Shapefile pose aujourd'hui(24/03/2026) des problèmes vis à vis du type d'un champs. 
 
-### 4 — Benchmark des performances
+### 3 — Benchmark des performances
 Performances de l'outil sur la zone de Champs-sur-Marne (7.32 km², urbain en banlieue parisienne) : 
 - Laptop Windows 11, AMD Ryzen 5 4600H, 16Go RAM : 33 secondes
 - Laptop MacBook Air : 
