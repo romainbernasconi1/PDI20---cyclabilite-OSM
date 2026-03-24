@@ -97,5 +97,6 @@ out skel qt;
 6. Dans la fenêtre qui s'ouvre :
    - Renseigner la couche GeoJSON des **routes** dans le champ `Couche route`
    - Renseigner la couche GeoJSON des **signalisations** dans le champ `Couche signalisation`
+   - Renseigner le fichier de style inclut dans le repository
    - Enregistrer les nouvelles couches ou les laisser temporaires
    - Cliquer sur **Exécuter**
