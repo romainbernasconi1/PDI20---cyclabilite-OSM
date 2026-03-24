@@ -36,7 +36,6 @@ Accéder à l'API : [https://overpass-turbo.eu/](https://overpass-turbo.eu/)
 | Panneau stop | `highway = stop` |
 | Panneau cédez le passage | `highway = give_way` |
 | Feu tricolore | `highway = traffic_signals` |
-| Cédez le passage au feu (vélo) | `red_turn:(right/straight/left):bicycle = yes` ou `restriction:bicycle = stop/give_way` |
 
 #### Requêtes Overpass
 
