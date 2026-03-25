@@ -52,9 +52,9 @@
         <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
       <Option value="index spatial tronçons" name="component_description" type="QString"/>
-      <Option value="40.5" name="component_height" type="double"/>
-      <Option value="1231" name="component_pos_x" type="double"/>
-      <Option value="460.75" name="component_pos_y" type="double"/>
+      <Option value="47.5" name="component_height" type="double"/>
+      <Option value="1236" name="component_pos_x" type="double"/>
+      <Option value="388.25" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:createspatialindex_2" name="id" type="QString"/>
@@ -88,8 +88,8 @@
       </Option>
       <Option value="index spatial mauvaises intersections" name="component_description" type="QString"/>
       <Option value="40" name="component_height" type="double"/>
-      <Option value="1369" name="component_pos_x" type="double"/>
-      <Option value="545.5" name="component_pos_y" type="double"/>
+      <Option value="1337" name="component_pos_x" type="double"/>
+      <Option value="508.5" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:createspatialindex_3" name="id" type="QString"/>
@@ -114,10 +114,10 @@
       <Option name="comment" type="Map">
         <Option value="" name="color" type="QString"/>
         <Option value="On enlève de la couche des routes les tronçons équivalent aux tronçons que l'on a regroupé dans l'étape précédente" name="component_description" type="QString"/>
-        <Option value="74" name="component_height" type="double"/>
-        <Option value="1323" name="component_pos_x" type="double"/>
-        <Option value="713.5" name="component_pos_y" type="double"/>
-        <Option value="132" name="component_width" type="double"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="1339" name="component_pos_x" type="double"/>
+        <Option value="706.5" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
         <Option value="true" name="outputs_collapsed" type="bool"/>
         <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
@@ -171,8 +171,8 @@
       </Option>
       <Option value="Regroupement des segments " name="component_description" type="QString"/>
       <Option value="50.00000000000001" name="component_height" type="double"/>
-      <Option value="1758" name="component_pos_x" type="double"/>
-      <Option value="576.5" name="component_pos_y" type="double"/>
+      <Option value="1718" name="component_pos_x" type="double"/>
+      <Option value="548.5" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:dissolve_1" name="id" type="QString"/>
@@ -258,16 +258,16 @@
         <Option value="" name="color" type="QString"/>
         <Option value="Ici on extrait les segments qui sont concerné par les fausses intersections " name="component_description" type="QString"/>
         <Option value="60" name="component_height" type="double"/>
-        <Option value="1803" name="component_pos_x" type="double"/>
-        <Option value="299.5" name="component_pos_y" type="double"/>
+        <Option value="1747" name="component_pos_x" type="double"/>
+        <Option value="448.5" name="component_pos_y" type="double"/>
         <Option value="100" name="component_width" type="double"/>
         <Option value="true" name="outputs_collapsed" type="bool"/>
         <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
       <Option value="extraction des segments mauvaisement intersectés" name="component_description" type="QString"/>
       <Option value="42" name="component_height" type="double"/>
-      <Option value="1655" name="component_pos_x" type="double"/>
-      <Option value="359.5" name="component_pos_y" type="double"/>
+      <Option value="1611" name="component_pos_x" type="double"/>
+      <Option value="324.5" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:extractbylocation_1" name="id" type="QString"/>
@@ -383,7 +383,7 @@
         <Option name="FORMULA" type="List">
           <Option type="Map">
             <Option value="2" name="source" type="int"/>
-            <Option value="CASE &#xd;&#xa;WHEN &#xd;&#xa;array_first(aggregate(layer:=  @ajout_de_la_signalisation_aux_intersections_OUTPUT , aggregate:='array_agg', expression:=  &quot;junction&quot;, filter:=intersects($geometry, start_point(geometry(@parent))))) IS NOT NULL&#xd;&#xa;THEN array_first(aggregate(layer:=  @ajout_de_la_signalisation_aux_intersections_OUTPUT  , aggregate:='array_agg', expression:=  &quot;junction&quot;, filter:=intersects($geometry, start_point(geometry(@parent)))))&#xd;&#xa;WHEN &#xd;&#xa;array_first(aggregate(layer:=  @ajout_de_la_signalisation_aux_intersections_OUTPUT , aggregate:='array_agg', expression:=  &quot;junction_2&quot;, filter:=intersects($geometry, start_point(geometry(@parent))))) IS NOT NULL&#xd;&#xa;THEN array_first(aggregate(layer:=  @ajout_de_la_signalisation_aux_intersections_OUTPUT  , aggregate:='array_agg', expression:=  &quot;junction_2&quot;, filter:=intersects($geometry, start_point(geometry(@parent)))))&#xd;&#xa;WHEN &#xd;&#xa;array_first(aggregate(layer:=  @ajout_de_la_signalisation_aux_intersections_OUTPUT , aggregate:='array_agg', expression:=  &quot;jhighway&quot;, filter:=intersects($geometry, start_point(geometry(@parent))))) IS NOT NULL&#xd;&#xa;THEN &#xd;&#xa;array_first(aggregate(layer:=  @ajout_de_la_signalisation_aux_intersections_OUTPUT , aggregate:='array_agg', expression:=  &quot;jhighway&quot;, filter:=intersects($geometry, start_point(geometry(@parent)))))&#xd;&#xa;&#xd;&#xa;ELSE &#xd;&#xa;'priorite à droite'&#xd;&#xa;END&#xd;&#xa;" name="static_value" type="QString"/>
+            <Option value="CASE &#xd;&#xa;WHEN &#xd;&#xa;array_first(aggregate(layer:=  @ajout_de_la_signalisation_aux_intersections_OUTPUT , aggregate:='array_agg', expression:=  &quot;junction&quot;, filter:=intersects($geometry, start_point(geometry(@parent))))) IS NOT NULL&#xd;&#xa;THEN array_first(aggregate(layer:=  @ajout_de_la_signalisation_aux_intersections_OUTPUT  , aggregate:='array_agg', expression:=  &quot;junction&quot;, filter:=intersects($geometry, start_point(geometry(@parent)))))&#xd;&#xa;WHEN &#xd;&#xa;array_first(aggregate(layer:=  @ajout_de_la_signalisation_aux_intersections_OUTPUT , aggregate:='array_agg', expression:=  &quot;junction_2&quot;, filter:=intersects($geometry, start_point(geometry(@parent))))) IS NOT NULL&#xd;&#xa;THEN array_first(aggregate(layer:=  @ajout_de_la_signalisation_aux_intersections_OUTPUT  , aggregate:='array_agg', expression:=  &quot;junction_2&quot;, filter:=intersects($geometry, start_point(geometry(@parent)))))&#xd;&#xa;WHEN &#xd;&#xa;array_first(aggregate(layer:=  @ajout_de_la_signalisation_aux_intersections_OUTPUT , aggregate:='array_agg', expression:=  &quot;jhighway&quot;, filter:=intersects($geometry, start_point(geometry(@parent))))) IS NOT NULL&#xd;&#xa;THEN &#xd;&#xa;array_first(aggregate(layer:=  @ajout_de_la_signalisation_aux_intersections_OUTPUT , aggregate:='array_agg', expression:=  &quot;jhighway&quot;, filter:=intersects($geometry, start_point(geometry(@parent)))))&#xd;&#xa;&#xd;&#xa;ELSE &#xd;&#xa;'priorité à droite'&#xd;&#xa;END&#xd;&#xa;" name="static_value" type="QString"/>
           </Option>
         </Option>
         <Option name="INPUT" type="List">
@@ -453,7 +453,7 @@
         <Option name="FORMULA" type="List">
           <Option type="Map">
             <Option value="2" name="source" type="int"/>
-            <Option value="CASE &#xd;&#xa;WHEN &#xd;&#xa;array_first(aggregate(layer:=  @ajout_de_la_signalisation_aux_intersections_OUTPUT , aggregate:='array_agg', expression:=  &quot;junction&quot;, filter:=intersects($geometry, end_point(geometry(@parent))))) IS NOT NULL&#xd;&#xa;THEN array_first(aggregate(layer:=  @ajout_de_la_signalisation_aux_intersections_OUTPUT , aggregate:='array_agg', expression:=  &quot;junction&quot;, filter:=intersects($geometry, end_point(geometry(@parent)))))&#xd;&#xa;WHEN &#xd;&#xa;array_first(aggregate(layer:=  @ajout_de_la_signalisation_aux_intersections_OUTPUT , aggregate:='array_agg', expression:=  &quot;junction_2&quot;, filter:=intersects($geometry, end_point(geometry(@parent))))) IS NOT NULL&#xd;&#xa;THEN array_first(aggregate(layer:=  @ajout_de_la_signalisation_aux_intersections_OUTPUT , aggregate:='array_agg', expression:=  &quot;junction_2&quot;, filter:=intersects($geometry, end_point(geometry(@parent)))))&#xd;&#xa;WHEN  &#xd;&#xa;array_first(aggregate(layer:=  @ajout_de_la_signalisation_aux_intersections_OUTPUT , aggregate:='array_agg', expression:=  &quot;jhighway&quot;, filter:=intersects($geometry, end_point(geometry(@parent))))) IS NOT NULL&#xd;&#xa;THEN &#xd;&#xa;array_first(aggregate(layer:=  @ajout_de_la_signalisation_aux_intersections_OUTPUT , aggregate:='array_agg', expression:=  &quot;jhighway&quot;, filter:=intersects($geometry, end_point(geometry(@parent)))))&#xd;&#xa;ELSE &#xd;&#xa;'priorite à droite'&#xd;&#xa;END&#xd;&#xa;" name="static_value" type="QString"/>
+            <Option value="CASE &#xd;&#xa;WHEN &#xd;&#xa;array_first(aggregate(layer:=  @ajout_de_la_signalisation_aux_intersections_OUTPUT , aggregate:='array_agg', expression:=  &quot;junction&quot;, filter:=intersects($geometry, end_point(geometry(@parent))))) IS NOT NULL&#xd;&#xa;THEN array_first(aggregate(layer:=  @ajout_de_la_signalisation_aux_intersections_OUTPUT , aggregate:='array_agg', expression:=  &quot;junction&quot;, filter:=intersects($geometry, end_point(geometry(@parent)))))&#xd;&#xa;WHEN &#xd;&#xa;array_first(aggregate(layer:=  @ajout_de_la_signalisation_aux_intersections_OUTPUT , aggregate:='array_agg', expression:=  &quot;junction_2&quot;, filter:=intersects($geometry, end_point(geometry(@parent))))) IS NOT NULL&#xd;&#xa;THEN array_first(aggregate(layer:=  @ajout_de_la_signalisation_aux_intersections_OUTPUT , aggregate:='array_agg', expression:=  &quot;junction_2&quot;, filter:=intersects($geometry, end_point(geometry(@parent)))))&#xd;&#xa;WHEN  &#xd;&#xa;array_first(aggregate(layer:=  @ajout_de_la_signalisation_aux_intersections_OUTPUT , aggregate:='array_agg', expression:=  &quot;jhighway&quot;, filter:=intersects($geometry, end_point(geometry(@parent))))) IS NOT NULL&#xd;&#xa;THEN &#xd;&#xa;array_first(aggregate(layer:=  @ajout_de_la_signalisation_aux_intersections_OUTPUT , aggregate:='array_agg', expression:=  &quot;jhighway&quot;, filter:=intersects($geometry, end_point(geometry(@parent)))))&#xd;&#xa;ELSE &#xd;&#xa;'priorité à droite'&#xd;&#xa;END&#xd;&#xa;" name="static_value" type="QString"/>
           </Option>
         </Option>
         <Option name="INPUT" type="List">
@@ -544,7 +544,7 @@
         <Option name="FORMULA" type="List">
           <Option type="Map">
             <Option value="2" name="source" type="int"/>
-            <Option value="CASE &#xd;&#xa;WHEN &quot;junction_2&quot; IS NOT NULL&#xd;&#xa;THEN &quot;junction_2&quot;&#xd;&#xa;WHEN &quot;junction&quot; IS NOT NULL&#xd;&#xa;THEN &quot;junction&quot;&#xd;&#xa;WHEN &quot;jhighway&quot; IS NOT NULL&#xd;&#xa;THEN &quot;jhighway&quot;&#xd;&#xa;ELSE 'priorite à droite'&#xd;&#xa;END" name="static_value" type="QString"/>
+            <Option value="CASE &#xd;&#xa;WHEN &quot;junction_2&quot; IS NOT NULL&#xd;&#xa;THEN &quot;junction_2&quot;&#xd;&#xa;WHEN &quot;junction&quot; IS NOT NULL&#xd;&#xa;THEN &quot;junction&quot;&#xd;&#xa;WHEN &quot;jhighway&quot; IS NOT NULL&#xd;&#xa;THEN &quot;jhighway&quot;&#xd;&#xa;ELSE 'priorité à droite'&#xd;&#xa;END" name="static_value" type="QString"/>
           </Option>
         </Option>
         <Option name="INPUT" type="List">
@@ -681,8 +681,8 @@
       </Option>
       <Option value="création des intersections" name="component_description" type="QString"/>
       <Option value="30" name="component_height" type="double"/>
-      <Option value="724" name="component_pos_x" type="double"/>
-      <Option value="143" name="component_pos_y" type="double"/>
+      <Option value="739" name="component_pos_x" type="double"/>
+      <Option value="131" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:lineintersections_1" name="id" type="QString"/>
@@ -735,18 +735,18 @@
       <Option value="" name="color" type="QString"/>
       <Option name="comment" type="Map">
         <Option value="" name="color" type="QString"/>
-        <Option value="On commence ici l'étape qui vise à séparer les tronçons à partir des intersections en tranformant les points en ligne " name="component_description" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
         <Option value="60" name="component_height" type="double"/>
-        <Option value="1046" name="component_pos_x" type="double"/>
-        <Option value="131.5" name="component_pos_y" type="double"/>
+        <Option value="2316" name="component_pos_x" type="double"/>
+        <Option value="1490.5" name="component_pos_y" type="double"/>
         <Option value="100" name="component_width" type="double"/>
         <Option value="true" name="outputs_collapsed" type="bool"/>
         <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
       <Option value="Création de lignes depuis les intersections" name="component_description" type="QString"/>
-      <Option value="50" name="component_height" type="double"/>
-      <Option value="911" name="component_pos_x" type="double"/>
-      <Option value="211.5" name="component_pos_y" type="double"/>
+      <Option value="44" name="component_height" type="double"/>
+      <Option value="923" name="component_pos_x" type="double"/>
+      <Option value="251.5" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:pointstopath_1" name="id" type="QString"/>
@@ -763,7 +763,7 @@
         <Option name="GROUP_EXPRESSION" type="List">
           <Option type="Map">
             <Option value="2" name="source" type="int"/>
-            <Option value="" name="static_value" type="QString"/>
+            <Option name="static_value" type="invalid"/>
           </Option>
         </Option>
         <Option name="INPUT" type="List">
@@ -782,7 +782,7 @@
         <Option name="ORDER_EXPRESSION" type="List">
           <Option type="Map">
             <Option value="2" name="source" type="int"/>
-            <Option value="" name="static_value" type="QString"/>
+            <Option name="static_value" type="invalid"/>
           </Option>
         </Option>
       </Option>
@@ -794,18 +794,18 @@
       <Option value="" name="color" type="QString"/>
       <Option name="comment" type="Map">
         <Option value="" name="color" type="QString"/>
-        <Option value="On reprend ici le traitement pour découper une couche de route selon les intersections" name="component_description" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
         <Option value="60" name="component_height" type="double"/>
-        <Option value="873" name="component_pos_x" type="double"/>
-        <Option value="722.5" name="component_pos_y" type="double"/>
+        <Option value="2316" name="component_pos_x" type="double"/>
+        <Option value="1490.5" name="component_pos_y" type="double"/>
         <Option value="100" name="component_width" type="double"/>
         <Option value="true" name="outputs_collapsed" type="bool"/>
         <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
       <Option value="Points vers lignes bonnes inter" name="component_description" type="QString"/>
       <Option value="42" name="component_height" type="double"/>
-      <Option value="1120" name="component_pos_x" type="double"/>
-      <Option value="723.5" name="component_pos_y" type="double"/>
+      <Option value="1126" name="component_pos_x" type="double"/>
+      <Option value="702.5" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:pointstopath_2" name="id" type="QString"/>
@@ -822,7 +822,7 @@
         <Option name="GROUP_EXPRESSION" type="List">
           <Option type="Map">
             <Option value="2" name="source" type="int"/>
-            <Option value="" name="static_value" type="QString"/>
+            <Option name="static_value" type="invalid"/>
           </Option>
         </Option>
         <Option name="INPUT" type="List">
@@ -841,7 +841,7 @@
         <Option name="ORDER_EXPRESSION" type="List">
           <Option type="Map">
             <Option value="2" name="source" type="int"/>
-            <Option value="" name="static_value" type="QString"/>
+            <Option name="static_value" type="invalid"/>
           </Option>
         </Option>
       </Option>
@@ -1023,18 +1023,18 @@
       <Option value="" name="color" type="QString"/>
       <Option name="comment" type="Map">
         <Option value="" name="color" type="QString"/>
-        <Option value="on utilise ici l'outil couper avec des lignes pour découper la couche des routes selon les intersections" name="component_description" type="QString"/>
-        <Option value="65" name="component_height" type="double"/>
-        <Option value="1254" name="component_pos_x" type="double"/>
-        <Option value="385" name="component_pos_y" type="double"/>
-        <Option value="144" name="component_width" type="double"/>
+        <Option value="" name="component_description" type="QString"/>
+        <Option value="60" name="component_height" type="double"/>
+        <Option value="2316" name="component_pos_x" type="double"/>
+        <Option value="1490.5" name="component_pos_y" type="double"/>
+        <Option value="100" name="component_width" type="double"/>
         <Option value="true" name="outputs_collapsed" type="bool"/>
         <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
       <Option value="création tronçons 1er" name="component_description" type="QString"/>
       <Option value="37" name="component_height" type="double"/>
-      <Option value="1009" name="component_pos_x" type="double"/>
-      <Option value="383" name="component_pos_y" type="double"/>
+      <Option value="951" name="component_pos_x" type="double"/>
+      <Option value="384" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:splitwithlines_1" name="id" type="QString"/>
@@ -1107,18 +1107,18 @@
       <Option value="" name="color" type="QString"/>
       <Option name="comment" type="Map">
         <Option value="" name="color" type="QString"/>
-        <Option value="On utilise ici l'outil transect pour reformer les intersection à partir des lignes " name="component_description" type="QString"/>
+        <Option value="" name="component_description" type="QString"/>
         <Option value="60" name="component_height" type="double"/>
-        <Option value="1246" name="component_pos_x" type="double"/>
-        <Option value="164.5" name="component_pos_y" type="double"/>
+        <Option value="2316" name="component_pos_x" type="double"/>
+        <Option value="1490.5" name="component_pos_y" type="double"/>
         <Option value="100" name="component_width" type="double"/>
         <Option value="true" name="outputs_collapsed" type="bool"/>
         <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
       <Option value="croisement de ligne au point " name="component_description" type="QString"/>
-      <Option value="42" name="component_height" type="double"/>
-      <Option value="1141" name="component_pos_x" type="double"/>
-      <Option value="289.5" name="component_pos_y" type="double"/>
+      <Option value="30" name="component_height" type="double"/>
+      <Option value="1133" name="component_pos_x" type="double"/>
+      <Option value="302.5" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:transect_1" name="id" type="QString"/>
@@ -1168,10 +1168,10 @@
         <Option value="true" name="outputs_collapsed" type="bool"/>
         <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
-      <Option value="Transect bonnes inter" name="component_description" type="QString"/>
+      <Option value="Transect bonnes inters" name="component_description" type="QString"/>
       <Option value="30" name="component_height" type="double"/>
-      <Option value="1332" name="component_pos_x" type="double"/>
-      <Option value="863.5" name="component_pos_y" type="double"/>
+      <Option value="1319" name="component_pos_x" type="double"/>
+      <Option value="872.5" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:transect_2" name="id" type="QString"/>
@@ -1274,8 +1274,8 @@
         </Option>
       </Option>
     </Option>
-    <Option value="routes_test_b5f399e6_be4a_446d_aaa9_7ef41f19dc2f" name="couche_route" type="QString"/>
-    <Option value="signalisation_42b354fb_a8da_4a50_8c90_a27b79b55ac6" name="couche_signalisation" type="QString"/>
+    <Option value="D:/VICTOR/cours/MASTER/PDI/données/données test/routes annecy.geojson" name="couche_route" type="QString"/>
+    <Option value="D:/VICTOR/cours/MASTER/PDI/données/données test/signalisation annecy.geojson" name="couche_signalisation" type="QString"/>
     <Option value="D:\VICTOR\cours\MASTER\PDI\tests victor\style_intersections.qml" name="fichier_de_style" type="QString"/>
     <Option name="tronons_avec_intersections" type="QgsProcessingOutputLayerDefinition">
       <Option type="Map">
@@ -1295,7 +1295,7 @@
   <Option value="Version2" name="internal_version" type="QString"/>
   <Option name="modelVariables"/>
   <Option value="" name="model_group" type="QString"/>
-  <Option value="identifier_les_types_d_intersections_v4" name="model_name" type="QString"/>
+  <Option value="identifier_les_types_d_intersections_v5" name="model_name" type="QString"/>
   <Option value="" name="outputGroup" type="QString"/>
   <Option name="outputOrder"/>
   <Option name="parameterDefinitions" type="Map">
