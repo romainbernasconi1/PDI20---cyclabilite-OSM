@@ -18,8 +18,8 @@
       </Option>
       <Option value="Créer un index spatial pour la couche des routes" name="component_description" type="QString"/>
       <Option value="46" name="component_height" type="double"/>
-      <Option value="504" name="component_pos_x" type="double"/>
-      <Option value="263.5" name="component_pos_y" type="double"/>
+      <Option value="502" name="component_pos_x" type="double"/>
+      <Option value="301.5" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:createspatialindex_1" name="id" type="QString"/>
@@ -53,8 +53,8 @@
       </Option>
       <Option value="index spatial tronçons" name="component_description" type="QString"/>
       <Option value="47.5" name="component_height" type="double"/>
-      <Option value="1236" name="component_pos_x" type="double"/>
-      <Option value="388.25" name="component_pos_y" type="double"/>
+      <Option value="1226" name="component_pos_x" type="double"/>
+      <Option value="542.25" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:createspatialindex_2" name="id" type="QString"/>
@@ -88,8 +88,8 @@
       </Option>
       <Option value="index spatial mauvaises intersections" name="component_description" type="QString"/>
       <Option value="40" name="component_height" type="double"/>
-      <Option value="1337" name="component_pos_x" type="double"/>
-      <Option value="508.5" name="component_pos_y" type="double"/>
+      <Option value="1177" name="component_pos_x" type="double"/>
+      <Option value="676.5" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:createspatialindex_3" name="id" type="QString"/>
@@ -115,16 +115,16 @@
         <Option value="" name="color" type="QString"/>
         <Option value="On enlève de la couche des routes les tronçons équivalent aux tronçons que l'on a regroupé dans l'étape précédente" name="component_description" type="QString"/>
         <Option value="60" name="component_height" type="double"/>
-        <Option value="1339" name="component_pos_x" type="double"/>
-        <Option value="706.5" name="component_pos_y" type="double"/>
+        <Option value="1507" name="component_pos_x" type="double"/>
+        <Option value="836.5" name="component_pos_y" type="double"/>
         <Option value="100" name="component_width" type="double"/>
         <Option value="true" name="outputs_collapsed" type="bool"/>
         <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
       <Option value="suppression des tronçons mauvais dans la couche des routes" name="component_description" type="QString"/>
       <Option value="66" name="component_height" type="double"/>
-      <Option value="1548" name="component_pos_x" type="double"/>
-      <Option value="702.5" name="component_pos_y" type="double"/>
+      <Option value="1760" name="component_pos_x" type="double"/>
+      <Option value="972.5" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:difference_1" name="id" type="QString"/>
@@ -163,16 +163,16 @@
         <Option value="" name="color" type="QString"/>
         <Option value="On regroupe les segments concernés de manière à avoir des tronçons continus" name="component_description" type="QString"/>
         <Option value="66" name="component_height" type="double"/>
-        <Option value="1962.5" name="component_pos_x" type="double"/>
-        <Option value="591.5" name="component_pos_y" type="double"/>
+        <Option value="2038.5" name="component_pos_x" type="double"/>
+        <Option value="811.5" name="component_pos_y" type="double"/>
         <Option value="167" name="component_width" type="double"/>
         <Option value="true" name="outputs_collapsed" type="bool"/>
         <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
       <Option value="Regroupement des segments " name="component_description" type="QString"/>
       <Option value="50.00000000000001" name="component_height" type="double"/>
-      <Option value="1718" name="component_pos_x" type="double"/>
-      <Option value="548.5" name="component_pos_y" type="double"/>
+      <Option value="1760" name="component_pos_x" type="double"/>
+      <Option value="806.5" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:dissolve_1" name="id" type="QString"/>
@@ -212,16 +212,16 @@
         <Option value="" name="color" type="QString"/>
         <Option value="On extrait les vraies intersections, celles qui observent l'intersection de plus de 2 tronçons" name="component_description" type="QString"/>
         <Option value="90" name="component_height" type="double"/>
-        <Option value="714" name="component_pos_x" type="double"/>
-        <Option value="559.5" name="component_pos_y" type="double"/>
+        <Option value="680" name="component_pos_x" type="double"/>
+        <Option value="659.5" name="component_pos_y" type="double"/>
         <Option value="100" name="component_width" type="double"/>
         <Option value="true" name="outputs_collapsed" type="bool"/>
         <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
       <Option value="extraction des bonnes intersections" name="component_description" type="QString"/>
       <Option value="40" name="component_height" type="double"/>
-      <Option value="928" name="component_pos_x" type="double"/>
-      <Option value="548.5" name="component_pos_y" type="double"/>
+      <Option value="904" name="component_pos_x" type="double"/>
+      <Option value="664.5" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies" type="List">
         <Option type="Map">
@@ -257,17 +257,17 @@
       <Option name="comment" type="Map">
         <Option value="" name="color" type="QString"/>
         <Option value="Ici on extrait les segments qui sont concerné par les fausses intersections " name="component_description" type="QString"/>
-        <Option value="60" name="component_height" type="double"/>
-        <Option value="1747" name="component_pos_x" type="double"/>
-        <Option value="448.5" name="component_pos_y" type="double"/>
-        <Option value="100" name="component_width" type="double"/>
+        <Option value="56" name="component_height" type="double"/>
+        <Option value="1891" name="component_pos_x" type="double"/>
+        <Option value="692.5" name="component_pos_y" type="double"/>
+        <Option value="168" name="component_width" type="double"/>
         <Option value="true" name="outputs_collapsed" type="bool"/>
         <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
       <Option value="extraction des segments mauvaisement intersectés" name="component_description" type="QString"/>
       <Option value="42" name="component_height" type="double"/>
-      <Option value="1611" name="component_pos_x" type="double"/>
-      <Option value="324.5" name="component_pos_y" type="double"/>
+      <Option value="1601" name="component_pos_x" type="double"/>
+      <Option value="678.5" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:extractbylocation_1" name="id" type="QString"/>
@@ -316,8 +316,8 @@
       </Option>
       <Option value="remplissage du champ &quot;prio_début&quot;" name="component_description" type="QString"/>
       <Option value="39" name="component_height" type="double"/>
-      <Option value="1929" name="component_pos_x" type="double"/>
-      <Option value="1272.5" name="component_pos_y" type="double"/>
+      <Option value="1911" name="component_pos_x" type="double"/>
+      <Option value="1588.5" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies" type="List">
         <Option type="Map">
@@ -378,16 +378,16 @@
         <Option value="" name="color" type="QString"/>
         <Option value="On remplit ici le champ qui contient le régime de priorité au début du tronçon.&#xa;Pour cela on compare la position d'un point intersection avec le début ou la fin du tronçon puis on vérifie si l'intersection est un rond point, si oui le champ prend la valeur du champ &quot;j2junction&quot; dans la couche des intersections, si non il prend la valeur du champ &quot;jhighway&quot;" name="component_description" type="QString"/>
         <Option value="106" name="component_height" type="double"/>
-        <Option value="2198.5" name="component_pos_x" type="double"/>
-        <Option value="1143" name="component_pos_y" type="double"/>
+        <Option value="2196.5" name="component_pos_x" type="double"/>
+        <Option value="1443" name="component_pos_y" type="double"/>
         <Option value="301" name="component_width" type="double"/>
         <Option value="true" name="outputs_collapsed" type="bool"/>
         <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
       <Option value="remplissage champ prio_fin" name="component_description" type="QString"/>
       <Option value="36" name="component_height" type="double"/>
-      <Option value="1753" name="component_pos_x" type="double"/>
-      <Option value="1146" name="component_pos_y" type="double"/>
+      <Option value="1867" name="component_pos_x" type="double"/>
+      <Option value="1444" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies" type="List">
         <Option type="Map">
@@ -456,8 +456,8 @@
       </Option>
       <Option value="remplissage du champ &quot;type_intersect&quot;" name="component_description" type="QString"/>
       <Option value="40" name="component_height" type="double"/>
-      <Option value="1400" name="component_pos_x" type="double"/>
-      <Option value="1258" name="component_pos_y" type="double"/>
+      <Option value="1186" name="component_pos_x" type="double"/>
+      <Option value="1254" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:fieldcalculator_3" name="id" type="QString"/>
@@ -477,8 +477,8 @@
           </Option>
           <Option value="ajout de la signalisation aux intersections" name="component_description" type="QString"/>
           <Option value="44" name="component_height" type="double"/>
-          <Option value="1571" name="component_pos_x" type="double"/>
-          <Option value="1405" name="component_pos_y" type="double"/>
+          <Option value="1377" name="component_pos_x" type="double"/>
+          <Option value="1383" name="component_pos_y" type="double"/>
           <Option value="200" name="component_width" type="double"/>
           <Option name="default_value" type="invalid"/>
           <Option value="false" name="mandatory" type="bool"/>
@@ -547,8 +547,8 @@
       </Option>
       <Option value="Calcul du nombre de tronçons intersecté au début" name="component_description" type="QString"/>
       <Option value="52" name="component_height" type="double"/>
-      <Option value="2193" name="component_pos_x" type="double"/>
-      <Option value="1375" name="component_pos_y" type="double"/>
+      <Option value="2045" name="component_pos_x" type="double"/>
+      <Option value="1775" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies" type="List">
         <Option type="Map">
@@ -617,8 +617,8 @@
       </Option>
       <Option value="calcul du nb de tronçons intersectés" name="component_description" type="QString"/>
       <Option value="52" name="component_height" type="double"/>
-      <Option value="2388" name="component_pos_x" type="double"/>
-      <Option value="1467" name="component_pos_y" type="double"/>
+      <Option value="2130" name="component_pos_x" type="double"/>
+      <Option value="1939" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies" type="List">
         <Option type="Map">
@@ -643,8 +643,8 @@
           </Option>
           <Option value="tronçons_ avec_intersections" name="component_description" type="QString"/>
           <Option value="30" name="component_height" type="double"/>
-          <Option value="2610.5" name="component_pos_x" type="double"/>
-          <Option value="1505.5" name="component_pos_y" type="double"/>
+          <Option value="2446.5" name="component_pos_x" type="double"/>
+          <Option value="1923.5" name="component_pos_y" type="double"/>
           <Option value="220.00000000000003" name="component_width" type="double"/>
           <Option name="default_value" type="invalid"/>
           <Option value="false" name="mandatory" type="bool"/>
@@ -713,8 +713,8 @@
       </Option>
       <Option value="Filtre par type de géométrie" name="component_description" type="QString"/>
       <Option value="30" name="component_height" type="double"/>
-      <Option value="297" name="component_pos_x" type="double"/>
-      <Option value="69.5" name="component_pos_y" type="double"/>
+      <Option value="231" name="component_pos_x" type="double"/>
+      <Option value="138.5" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:filterbygeometry_1" name="id" type="QString"/>
@@ -739,16 +739,16 @@
         <Option value="" name="color" type="QString"/>
         <Option value="On ajoute aux intersections la signalisation en prenant le panneaux de signalisation le plus proche de l'intersection " name="component_description" type="QString"/>
         <Option value="60" name="component_height" type="double"/>
-        <Option value="1140.5" name="component_pos_x" type="double"/>
-        <Option value="1272" name="component_pos_y" type="double"/>
+        <Option value="984.5" name="component_pos_x" type="double"/>
+        <Option value="1312" name="component_pos_y" type="double"/>
         <Option value="206.99999999999997" name="component_width" type="double"/>
         <Option value="true" name="outputs_collapsed" type="bool"/>
         <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
       <Option value="ajout de la signalisation aux intersections" name="component_description" type="QString"/>
       <Option value="60.99999999999999" name="component_height" type="double"/>
-      <Option value="1168" name="component_pos_x" type="double"/>
-      <Option value="1073.5" name="component_pos_y" type="double"/>
+      <Option value="978" name="component_pos_x" type="double"/>
+      <Option value="1087.5" name="component_pos_y" type="double"/>
       <Option value="202" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:joinbynearest_1" name="id" type="QString"/>
@@ -813,16 +813,16 @@
         <Option value="" name="color" type="QString"/>
         <Option value="Avec l'outil &quot;intersections de ligne&quot; nous créons une couche de points qui représente les intersections entre les segments de la couche des routes" name="component_description" type="QString"/>
         <Option value="48" name="component_height" type="double"/>
-        <Option value="824" name="component_pos_x" type="double"/>
-        <Option value="60" name="component_pos_y" type="double"/>
+        <Option value="764" name="component_pos_x" type="double"/>
+        <Option value="56" name="component_pos_y" type="double"/>
         <Option value="252" name="component_width" type="double"/>
         <Option value="true" name="outputs_collapsed" type="bool"/>
         <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
       <Option value="création des intersections" name="component_description" type="QString"/>
       <Option value="30" name="component_height" type="double"/>
-      <Option value="735" name="component_pos_x" type="double"/>
-      <Option value="144" name="component_pos_y" type="double"/>
+      <Option value="737" name="component_pos_x" type="double"/>
+      <Option value="180" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:lineintersections_1" name="id" type="QString"/>
@@ -885,8 +885,8 @@
       </Option>
       <Option value="Création de lignes depuis les intersections" name="component_description" type="QString"/>
       <Option value="44" name="component_height" type="double"/>
-      <Option value="923" name="component_pos_x" type="double"/>
-      <Option value="251.5" name="component_pos_y" type="double"/>
+      <Option value="985" name="component_pos_x" type="double"/>
+      <Option value="225.5" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:pointstopath_1" name="id" type="QString"/>
@@ -944,8 +944,8 @@
       </Option>
       <Option value="Points vers lignes bonnes inter" name="component_description" type="QString"/>
       <Option value="42" name="component_height" type="double"/>
-      <Option value="1126" name="component_pos_x" type="double"/>
-      <Option value="702.5" name="component_pos_y" type="double"/>
+      <Option value="1146" name="component_pos_x" type="double"/>
+      <Option value="846.5" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:pointstopath_2" name="id" type="QString"/>
@@ -995,16 +995,16 @@
         <Option value="" name="color" type="QString"/>
         <Option value="De manière à pouvoir faire des calculs, nous passons la couche en format projeté en Lambert 93" name="component_description" type="QString"/>
         <Option value="71" name="component_height" type="double"/>
-        <Option value="443.5" name="component_pos_x" type="double"/>
-        <Option value="40.5" name="component_pos_y" type="double"/>
+        <Option value="399.5" name="component_pos_x" type="double"/>
+        <Option value="98.5" name="component_pos_y" type="double"/>
         <Option value="118.99999999999999" name="component_width" type="double"/>
         <Option value="true" name="outputs_collapsed" type="bool"/>
         <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
       <Option value="Reprojection de la couche route" name="component_description" type="QString"/>
       <Option value="38" name="component_height" type="double"/>
-      <Option value="453" name="component_pos_x" type="double"/>
-      <Option value="132" name="component_pos_y" type="double"/>
+      <Option value="391" name="component_pos_x" type="double"/>
+      <Option value="216" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:reprojectlayer_1" name="id" type="QString"/>
@@ -1060,16 +1060,16 @@
         <Option value="" name="color" type="QString"/>
         <Option value="De manière à pouvoir faire des calculs, nous passons la couche en format projeté en Lambert 93" name="component_description" type="QString"/>
         <Option value="77" name="component_height" type="double"/>
-        <Option value="169" name="component_pos_x" type="double"/>
-        <Option value="397.5" name="component_pos_y" type="double"/>
+        <Option value="113" name="component_pos_x" type="double"/>
+        <Option value="373.5" name="component_pos_y" type="double"/>
         <Option value="100" name="component_width" type="double"/>
         <Option value="true" name="outputs_collapsed" type="bool"/>
         <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
       <Option value="reprojection de la couche signalisation" name="component_description" type="QString"/>
       <Option value="45" name="component_height" type="double"/>
-      <Option value="384" name="component_pos_x" type="double"/>
-      <Option value="383.5" name="component_pos_y" type="double"/>
+      <Option value="354" name="component_pos_x" type="double"/>
+      <Option value="379.5" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:reprojectlayer_2" name="id" type="QString"/>
@@ -1132,8 +1132,8 @@
       </Option>
       <Option value="Appliquer le style" name="component_description" type="QString"/>
       <Option value="34" name="component_height" type="double"/>
-      <Option value="2012" name="component_pos_x" type="double"/>
-      <Option value="1497" name="component_pos_y" type="double"/>
+      <Option value="1154" name="component_pos_x" type="double"/>
+      <Option value="1437" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:setlayerstyle_1" name="id" type="QString"/>
@@ -1173,8 +1173,8 @@
       </Option>
       <Option value="création tronçons 1er" name="component_description" type="QString"/>
       <Option value="37" name="component_height" type="double"/>
-      <Option value="951" name="component_pos_x" type="double"/>
-      <Option value="384" name="component_pos_y" type="double"/>
+      <Option value="989" name="component_pos_x" type="double"/>
+      <Option value="444" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:splitwithlines_1" name="id" type="QString"/>
@@ -1215,8 +1215,8 @@
       </Option>
       <Option value="Couper avec des lignes 2eme fois" name="component_description" type="QString"/>
       <Option value="47" name="component_height" type="double"/>
-      <Option value="1633" name="component_pos_x" type="double"/>
-      <Option value="1012" name="component_pos_y" type="double"/>
+      <Option value="1785" name="component_pos_x" type="double"/>
+      <Option value="1296" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:splitwithlines_2" name="id" type="QString"/>
@@ -1257,8 +1257,8 @@
       </Option>
       <Option value="croisement de ligne au point " name="component_description" type="QString"/>
       <Option value="30" name="component_height" type="double"/>
-      <Option value="1133" name="component_pos_x" type="double"/>
-      <Option value="302.5" name="component_pos_y" type="double"/>
+      <Option value="973" name="component_pos_x" type="double"/>
+      <Option value="322.5" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:transect_1" name="id" type="QString"/>
@@ -1309,9 +1309,9 @@
         <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
       <Option value="Transect bonnes inters" name="component_description" type="QString"/>
-      <Option value="30" name="component_height" type="double"/>
-      <Option value="1319" name="component_pos_x" type="double"/>
-      <Option value="872.5" name="component_pos_y" type="double"/>
+      <Option value="56" name="component_height" type="double"/>
+      <Option value="1259" name="component_pos_x" type="double"/>
+      <Option value="983.5" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:transect_2" name="id" type="QString"/>
@@ -1355,16 +1355,16 @@
         <Option value="" name="color" type="QString"/>
         <Option value="On rajoute dans la couche des routes les tronçons continus à la place de ceux que l'on vient d'enlever" name="component_description" type="QString"/>
         <Option value="60" name="component_height" type="double"/>
-        <Option value="2006" name="component_pos_x" type="double"/>
-        <Option value="822.5" name="component_pos_y" type="double"/>
+        <Option value="2084" name="component_pos_x" type="double"/>
+        <Option value="1128.5" name="component_pos_y" type="double"/>
         <Option value="138" name="component_width" type="double"/>
         <Option value="true" name="outputs_collapsed" type="bool"/>
         <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
       <Option value="rajout des bons tronçons dans la couche originelle" name="component_description" type="QString"/>
       <Option value="46" name="component_height" type="double"/>
-      <Option value="1724" name="component_pos_x" type="double"/>
-      <Option value="835.5" name="component_pos_y" type="double"/>
+      <Option value="1834" name="component_pos_x" type="double"/>
+      <Option value="1139.5" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option name="dependencies"/>
       <Option value="native:union_1" name="id" type="QString"/>
@@ -1430,7 +1430,52 @@
       </Option>
     </Option>
   </Option>
-  <Option name="groupBoxes"/>
+  <Option name="groupBoxes" type="List">
+    <Option type="Map">
+      <Option value="231,209,75,255,hsv:0.14330555555555555,0.67519645990692001,0.90664530403601129,1" name="color" type="QString"/>
+      <Option value="Séparation des tronçons par les intersections &#xa;" name="component_description" type="QString"/>
+      <Option value="490" name="component_height" type="double"/>
+      <Option value="1103" name="component_pos_x" type="double"/>
+      <Option value="337" name="component_pos_y" type="double"/>
+      <Option value="497.99999999999994" name="component_width" type="double"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option value="{0a48b871-c209-4891-9de6-b06c6874435c}" name="uuid" type="QString"/>
+    </Option>
+    <Option type="Map">
+      <Option value="251,154,153,255,rgb:0.98431372549019602,0.60392156862745094,0.59999999999999998,1" name="color" type="QString"/>
+      <Option value="Regroupement et réinsertion des segments discontinus en tronçons continus&#xa;" name="component_description" type="QString"/>
+      <Option value="654" name="component_height" type="double"/>
+      <Option value="1813" name="component_pos_x" type="double"/>
+      <Option value="889" name="component_pos_y" type="double"/>
+      <Option value="746" name="component_width" type="double"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option value="{1cd745d8-17be-4165-904d-33a3398e0851}" name="uuid" type="QString"/>
+    </Option>
+    <Option type="Map">
+      <Option value="31,120,180,255,rgb:0.12156862745098039,0.47058823529411764,0.70588235294117652,1" name="color" type="QString"/>
+      <Option value="Préparation des données" name="component_description" type="QString"/>
+      <Option value="528" name="component_height" type="double"/>
+      <Option value="331" name="component_pos_x" type="double"/>
+      <Option value="270" name="component_pos_y" type="double"/>
+      <Option value="608" name="component_width" type="double"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option value="{35d1e57c-e456-463a-a7c1-01d19e043e9c}" name="uuid" type="QString"/>
+    </Option>
+    <Option type="Map">
+      <Option value="255,127,0,255,rgb:1,0.49803921568627452,0,1" name="color" type="QString"/>
+      <Option value="Remplissage des champs " name="component_description" type="QString"/>
+      <Option value="696" name="component_height" type="double"/>
+      <Option value="2111" name="component_pos_x" type="double"/>
+      <Option value="1696" name="component_pos_y" type="double"/>
+      <Option value="990" name="component_width" type="double"/>
+      <Option value="true" name="outputs_collapsed" type="bool"/>
+      <Option value="true" name="parameters_collapsed" type="bool"/>
+      <Option value="{5624ba96-c556-41a3-8517-ba445d0d5072}" name="uuid" type="QString"/>
+    </Option>
+  </Option>
   <Option name="help"/>
   <Option value="Version2" name="internal_version" type="QString"/>
   <Option name="modelVariables"/>
@@ -1531,8 +1576,8 @@
       </Option>
       <Option value="couche_route" name="component_description" type="QString"/>
       <Option value="33.00000000000001" name="component_height" type="double"/>
-      <Option value="55" name="component_pos_x" type="double"/>
-      <Option value="37.5" name="component_pos_y" type="double"/>
+      <Option value="146" name="component_pos_x" type="double"/>
+      <Option value="55.5" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option value="couche_route" name="name" type="QString"/>
       <Option value="true" name="outputs_collapsed" type="bool"/>
@@ -1552,8 +1597,8 @@
       </Option>
       <Option value="couche_signalisation" name="component_description" type="QString"/>
       <Option value="30" name="component_height" type="double"/>
-      <Option value="142" name="component_pos_x" type="double"/>
-      <Option value="229" name="component_pos_y" type="double"/>
+      <Option value="130" name="component_pos_x" type="double"/>
+      <Option value="293" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option value="couche_signalisation" name="name" type="QString"/>
       <Option value="true" name="outputs_collapsed" type="bool"/>
@@ -1573,8 +1618,8 @@
       </Option>
       <Option value="fichier_de_style" name="component_description" type="QString"/>
       <Option value="30" name="component_height" type="double"/>
-      <Option value="1665" name="component_pos_x" type="double"/>
-      <Option value="1489.5" name="component_pos_y" type="double"/>
+      <Option value="883" name="component_pos_x" type="double"/>
+      <Option value="1481.5" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
       <Option value="fichier_de_style" name="name" type="QString"/>
       <Option value="true" name="outputs_collapsed" type="bool"/>

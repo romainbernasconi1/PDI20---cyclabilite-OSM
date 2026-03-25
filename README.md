@@ -91,7 +91,7 @@ out skel qt;
 
 #### Via l'interface de modèle de Qgis
 
-1. Télécharger le modèle depuis ce dépôt.
+1. Télécharger le modèle **identifier_les_types_d_intersections_v6.model3**.
 2. Ouvrir **QGIS** (version 3.40.7 recommandée).
 3. Ouvrir l'interface **Modeleur** dans l'onglet **Traitement**.
 4. Importer le fichier du modèle dans l'interface.
