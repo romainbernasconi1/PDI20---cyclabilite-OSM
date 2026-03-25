@@ -70,7 +70,6 @@ out skel qt;
 [out:json][timeout:120];
 {{geocodeArea:Champs-sur-marne}}->.searchArea;
 way ["highway"~"primary|secondary|tertiary|residential|cycleway|path|living_street|unclassified|primary_link|secondary_link|tertiary_link"]
-    ["cycleway" != "no"]
     ["bicycle" != "no"]
     ["bicycle_road" != "no"](area.searchArea);
 out body;
