@@ -81,22 +81,35 @@ out skel qt;
 
 ### 2 — Utilisation du modèle sur QGIS
 
+#### Via le script Python
+
+1. Télécharger **script_modeleurV6.py**
+2. Ouvrir **QGIS** (version 3.40.7 recommandée).
+3. Afficher la **Boîte à outils de traitements**, onglet **Scripts** et **Ouvrir un script existant...**
+4. Sélectionner **script_modeleurV6.py**
+5. Lancer le script.
+
+#### Via l'interface de modèle de Qgis
+
 1. Télécharger le modèle depuis ce dépôt.
 2. Ouvrir **QGIS** (version 3.40.7 recommandée).
 3. Ouvrir l'interface **Modeleur** dans l'onglet **Traitement**.
 4. Importer le fichier du modèle dans l'interface.
 5. Lancer le script.
-6. Dans la fenêtre qui s'ouvre :
+
+#### Etapes finales (communes aux deux méthodes)
+
+1. Dans la fenêtre qui s'ouvre :
    - Renseigner la couche GeoJSON des **routes** dans le champ `Couche route`
    - Renseigner la couche GeoJSON des **signalisations** dans le champ `Couche signalisation`
    - Renseigner le fichier de style inclut dans le repository
    - Enregistrer les nouvelles couches ou les laisser temporaires
    - Cliquer sur **Exécuter**
-7. Le modèle fourni en résultat 2 couches :
+2. Le modèle fourni en résultat 2 couches :
    - Une couche de ligne présentant les tronçons avec des champs "prio_début" et "prio_fin" présentant le régime de priorité au début et à la fin du tronçon
    - une couche de point avec un style permettant de visualiser le type d'intersection et les panneaux de signalisation français associés
 
-8. Extraction des couches : l'extraction des couches de résultats est possible, nous conseillons pour l'instant de le faire vers un format geopackage, le format Shapefile pose aujourd'hui(24/03/2026) des problèmes vis à vis du type d'un champs. 
+3. Extraction des couches : l'extraction des couches de résultats est possible, nous conseillons pour l'instant de le faire vers un format geopackage ou geojson, le format Shapefile (et aussi geopackage parfois) pose aujourd'hui (24/03/2026) des problèmes vis à vis du type de certains champs.
 
 ### 3 — Benchmark des performances
 Performances de l'outil sur la zone de Champs-sur-Marne (7.32 km², urbain en banlieue parisienne) : 
