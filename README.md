@@ -101,7 +101,7 @@ out skel qt;
 
 ### 3 — Benchmark des performances
 Performances de l'outil sur la zone de Champs-sur-Marne (7.32 km², urbain en banlieue parisienne) : 
-- Laptop Windows 11, 12th Gen Intel i3-12100f, 16Go RAM : 25 secondes
+- PC Windows 11, 12th Gen Intel i3-12100f, 16Go RAM : 25 secondes
 - Laptop Windows 11, AMD Ryzen 5 4600H, 16Go RAM : 33 secondes
 - Laptop MacBook Air : 
-- PC Dell Windows 11, Intel Xeon W-2223, 31Go RAM, NVIDIA RTX &-2000 :
+- PC Dell Windows 11, Intel Xeon W-2223, 32Go RAM, NVIDIA RTX &-2000 : 45 secondes
