@@ -41,8 +41,4 @@
 
 # Récupération du resultat : 
 
-1. Le modèle fourni en résultat 2 couches :
-   - Une couche de ligne présentant les tronçons avec des champs "prio_début" et "prio_fin" présentant le régime de priorité au début et à la fin du tronçon
-   - une couche de point avec un style permettant de visualiser le type d'intersection et les panneaux de signalisation français associés
-
-2. Extraction des couches : l'extraction des couches de résultats est possible, nous conseillons pour l'instant de le faire vers un format geopackage ou geojson, le format Shapefile (et aussi geopackage parfois) pose des problèmes vis à vis du type de certains champs.
+Extraction des couches : l'extraction des couches de résultats est possible, nous conseillons pour l'instant de le faire vers un format geopackage ou geojson, le format Shapefile (et aussi geopackage parfois) pose des problèmes vis à vis du type de certains champs.
