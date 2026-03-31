@@ -19,9 +19,9 @@ Ce dépôt est composé d'un fichier Python du script de notre modèle réalisé
 
 ### 1 — Téléchargement des données OpenStreetMap via Overpass Turbo
 
-Accéder à l'API : [https://overpass-turbo.eu/](https://overpass-turbo.eu/)
-Remplacer la requete d'exemple par une des requêtes ci-dessous
-Cliquer sur "exporter" pour récupérer le résultat, sélectionner "Json"
+- Accéder à l'API : [https://overpass-turbo.eu/](https://overpass-turbo.eu/)
+- Remplacer la requete d'exemple par une des requêtes ci-dessous
+- Cliquer sur "exporter" pour récupérer le résultat, sélectionner "Json"
 
 #### Éléments OSM à récupérer
 
