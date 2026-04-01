@@ -20,17 +20,18 @@ Ce dépôt est composé d'un fichier Python du script de notre modèle réalisé
 ### 1 — Téléchargement des données OpenStreetMap via Overpass Turbo
 
 - Accéder à l'API : [https://overpass-turbo.eu/](https://overpass-turbo.eu/)
-- Remplacer la requete d'exemple par une des requêtes ci-dessous
-- Cliquer sur "exporter" pour récupérer le résultat, sélectionner "Json"
+- Remplacer la requête d'exemple par l'une des requêtes ci-dessous
+- Cliquer sur "exporter" pour récupérer le résultat, sélectionner le format "GeoJSON"
 
 #### Éléments OSM à récupérer
 
 | Élément | Tag OSM |
 |---|---|
+| Tronçons de route | `highway = *` + `bicycle != no` + `bicycle_road != no` |
 | Rond-point / giratoire | `highway = *` + `junction = roundabout` |
 | Petit rond-point | `highway = mini_roundabout` |
 | Panneau stop | `highway = stop` |
-| Panneau cédez le passage | `highway = give_way` |
+| Panneau cédez-le-passage | `highway = give_way` |
 | Feu tricolore | `highway = traffic_signals` |
 
 #### Requêtes Overpass
@@ -38,7 +39,6 @@ Ce dépôt est composé d'un fichier Python du script de notre modèle réalisé
 **Sélection des signalisations** (exemple pour Champs-sur-Marne) :
 
 ```overpassql
-// Requête de sélection des signalisations
 // Remplacer "Champs-sur-Marne" par la zone souhaitée dans geocodeArea:
 [out:json][timeout:120];
 {{geocodeArea:Champs-sur-Marne}}->.searchArea;
@@ -54,8 +54,7 @@ out skel qt;
 **Cédez-le-passage cycliste au feu** (couche de tronçon + signalisation) :
 
 ```overpassql
-// Ne fonctionne pas pour toutes les villes : certaines données
-// ne sont pas mappées sur OSM (~10 000 données dans le monde)
+// (Résultat : ~10 000 données recensées dans le monde, concentrées majoritairement dans les grandes villes françaises)
 [out:json][timeout:60];
 {{geocodeArea:Champs-sur-marne}}->.searchArea;
 relation["type"="restriction"]
@@ -65,8 +64,9 @@ out body;
 >;
 out skel qt;
 ```
+**Note** : *La requête ci-dessus ne fonctionne pas pour toutes les villes car certaines données ne sont pas mappées sur OSM. Compte tenu des résultats obtenus, nous avons décidé de ne pas retenir cette requête dans le cadre de ce travail. Une mise en perspective a été apportée sur la recherche des cédez-le-passage cycliste pour la poursuite de ce travail.* 
 
-**Sélection des routes** :
+**Sélection des routes autorisées aux cyclistes** :
 
 ```overpassql
 [out:json][timeout:120];
