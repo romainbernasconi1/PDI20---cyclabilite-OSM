@@ -1,13 +1,15 @@
 # PDI20 — Cyclabilité OSM
-## Qualifier la cyclabilité à l'échelle des tronçons OpenStreetMap
+## Qualifier la cyclabilité à l'échelle des tronçons de route OpenStreetMap
 
 ## Description
 
-Ce modèle QGIS permet, à partir des données OpenStreetMap, d'assigner à chaque intersection la signalisation qui lui correspond sur le terrain pour les routes et chemins accessibles aux cyclistes.
+Ce modèle QGIS permet, à partir des données OpenStreetMap, d'assigner à chaque intersection : 
+- les signalisations qui lui correspond sur le terrain pour les routes accessibles aux cyclistes 
+- un score de cyclabilité  
 
 Ce projet de développement informatique a été réalisé dans le cadre d'un enseignement de Master 1 à l'école Géodata-Paris par **Yasmine Moutchou**, **Victor Oberti**, **Safira Said** et **Romain Bernasconi**.
 
-Son objectif est d'intégrer la qualification de la signalisation au niveau de l'intersection à un indicateur de cyclabilité global, réalisé par **Raphaël Bres**, Post-Doctorant à Université Grenoble Alpes et commanditaire du projet.
+L'objectif est d'intégrer le travail de la qualification des intersections à un indicateur de cyclabilité global, réalisé par **Raphaël Bres**, Post-Doctorant à Université Grenoble Alpes et commanditaire du projet.
 
 Ce dépôt est composé d'un fichier Python du script de notre modèle réalisé dans le modeleur QGIS (version **3.40.7** recommandée).
 
@@ -21,7 +23,7 @@ Ce dépôt est composé d'un fichier Python du script de notre modèle réalisé
 
 - Accéder à l'API : [https://overpass-turbo.eu/](https://overpass-turbo.eu/)
 - Remplacer la requête d'exemple par l'une des requêtes ci-dessous
-- Cliquer sur "exporter" pour récupérer le résultat, sélectionner le format "GeoJSON"
+- Cliquer sur "exporter" pour récupérer le résultat puis sélectionner le format "GeoJSON"
 
 #### Éléments OSM à récupérer
 
@@ -82,9 +84,9 @@ out skel qt;
 ---
 
 ### 2 Mise en place de l'outil : 
-- Télécharger les fichier de script vous intéressant : 
+- Télécharger les fichiers de script vous intéressant : 
    - modeleurV6 : utilisable pour identifier les intersections au début et à la fin de chaque tronçon 
-   - modeleurV7 : idem v6 mais permettant le calcul de l'indice de cyclabilité global 
+   - modeleurV7 : idem que le modeleurv6 en permettant le calcul de l'indice de cyclabilité global 
 
 
 ### 3 — Benchmark des performances
