@@ -1,5 +1,5 @@
 # PDI20 — Cyclabilité OSM
-## Qualifier la cyclabilité des itinéraires OpenStreetMap
+## Qualifier la cyclabilité à l'échelle des tronçons OpenStreetMap
 
 ## Description
 
